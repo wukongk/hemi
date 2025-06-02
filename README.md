@@ -2,7 +2,7 @@
 
 windows安装步骤
 
-    - 打开命令提示符 (CMD):
+ - 打开命令提示符 (CMD):
         - 按 `Win + R` 打开“运行”窗口，输入 `cmd` 并按回车。
     - 输入以下命令，切换到 X 盘：
         
@@ -11,7 +11,7 @@ windows安装步骤
         ```
         
     
-    - 使用 `cd` 命令导航到指定路径：
+- 使用 `cd` 命令导航到指定路径：
         
         ```
         cd PATH
@@ -20,20 +20,20 @@ windows安装步骤
         输入 `dir` 查看文件夹内文件
         
     
-    - 验证配置是否成功:
+- 验证配置是否成功:
         
         ```
         popmd.exe --help
         ```
         
-    - 生成public key
+- 生成public key
         
         ```
         keygen.exe -secp256k1 -json 
         -net="testnet" > 
         ```
         
-    - 查看public key
+- 查看public key
         
         ```
         %HOMEDRIVE%%HOMEPATH%\popm-address.json
@@ -41,7 +41,7 @@ windows安装步骤
         
         该命令打开 `popm-address.json` ，对密钥进行编辑
         
-    - 跑挖矿小程序
+- 跑挖矿小程序
     
     ```
     set POPM_STATIC_FEE=300
